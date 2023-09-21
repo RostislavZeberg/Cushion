@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cushion</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script defer src="./script.js"></script>
+
+</head>
+
+<body>
+    <header class="container header">
+        <div class="header__top flex">
+            <div class="flag"></div>
+            <p class="header__descr">SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA</p>
+            <div class="flag"></div>
+        </div>
+        <div class="header__bottom logo">
+            <div class="logo__img">
+                <img src="./img/logo.svg" alt="Картинка слайдера, слайдЛогтип компании Cushion">
+                <img class="logo__circle" src="./img/logo-circle.svg" alt="Картинка слайдера, слайд">
+            </div>
+            <div class="logo__descr">
+                orthopedic slippers
+            </div>
+        </div>
+    </header>
+    <section class="container hero">
+        <div class="hero__img flex">
+            <div class="hero__contetnt flex">
+                <div class="hero__time time flex">
+                    <div class="time__title">
+                        Limited offer
+                    </div>
+                    <div class="time__clock"></div>
+                </div>
+                <div class="hero__price price flex">
+                    <div class="price__befor">
+                        R 250.00
+                        <div class="line"></div>
+                    </div>
+                    <div class="price__action">
+                        R 160.00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container main">
+        <div class="main__top top flex">
+            <div class="top__right">Excellent 4.8/5</div>
+            <div class="top__centre"></div>
+            <a class="top__left">best selling</a>
+        </div>
+        <div class="wrapper">
+            <div class="wrapper__title">Orthopedic Slippers</div>
+            <div class="image-slider swiper-container">
+                <div class="image-slider__wrapper swiper-wrapper">
+                    <div class="image-slider__slide swiper-slide">
+                        <img src="./img/slide-1.png" alt="Картинка слайдера, слайд">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/slide-2.png" alt="Картинка слайдера, слайд">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/slide-3.png" alt="Картинка слайдера, слайд">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/slide-4.png" alt="Картинка слайдера, слайд">
+                    </div>
+                </div>
+            </div>
+            <div class="image-mini-slider swiper-container">
+                <div class="image-mini-slider__wrapper swiper-wrapper">
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="./img/m_slide-1.png" alt="Картинка слайдера, слайд">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="./img/m_slide-2.png" alt="Картинка слайдера, слайд">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="./img/m_slide-3.png" alt="Картинка слайдера, слайд">
+                        </div>
+                    </div>
+                    <div class="image-mini-slider__slide swiper-slide">
+                        <div class="image-mini-slider__image">
+                            <img src="./img/m_slide-4.png" alt="Картинка слайдера, слайд">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="delivery">
+            <div class="delivery__fast flex">
+                <span class="bold">Fast Delivery:</span>
+                <span class="regular">2-4 days from SA</span>
+                <div class="flag"></div>
+            </div>
+            <div class="delivery__stock flex">
+                <span class="bold">In Stock:</span>
+                <span class="regular">Shipping from Johannesburg</span>
+                <div class="flag"></div>
+            </div>
+            <div class="delivery__rating rating raitig_set flex">
+                <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items flex">
+                        <input type="radio" class="rating__item" value="1" name="rating">
+                        <input type="radio" class="rating__item" value="2" name="rating">
+                        <input type="radio" class="rating__item" value="3" name="rating">
+                        <input type="radio" class="rating__item" value="4" name="rating">
+                        <input type="radio" class="rating__item" value="5" name="rating">
+                    </div>
+                </div>
+                <span>(</span>
+                <div class="rating__value">1</div><span>)</span>
+            </div>
+        </div>
+        <div class="variety flex">
+            <div class="variety__color flex">
+                <span class="variety__title">color</span>
+                <select class="select">
+                    <option value="">Black</option>
+                    <option value="">Orange</option>
+                    <option value="">Pink</option>
+                    <option value="">Yellow</option>
+                </select>
+            </div>
+            <div class="variety__size flex">
+                <span class="variety__title">size</span>
+                <select class="select">
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                </select>
+            </div>
+        </div>
+        <a href="" class="button flex">buy now</a>
+    </section>
+</body>
+
+</html>
